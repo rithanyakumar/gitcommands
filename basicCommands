@@ -1,0 +1,7 @@
+To create a local repo from scratch
+ 1.create a sample file 
+ 2. git init
+ 3. git add filename
+ 4. git commit -m 'commit msg' or git commit- vi editor will open to add your commit msg
+ 5. git branch -M {branchname} to create new branch
+
