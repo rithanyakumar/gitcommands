@@ -1,7 +1,23 @@
 To create a local repo from scratch
- 1.create a sample file 
+congifure ur username and mail id
+ 1. create a sample file 
  2. git init
  3. git add filename
  4. git commit -m 'commit msg' or git commit- vi editor will open to add your commit msg
  5. git branch -M {branchname} to create new branch
+ 6. git remote add origin {repo url}
+ 7. git push origin {branch name}
+
+******************************************************************
+ To see config details
+  git congif --global -l{-list}   for all currentlt login user 
+             --system             for all the user and repo in the system
+	     --local              for sepcific repo
+
+*******************************************************************
+git checkout {branch name} to switch branch
+git checkout -b {branch name} to switch to new branch
+git remote - v to see the remote repo
+git remote remove {origin or destination}
+git remote set-url --add {name} {url}
 
