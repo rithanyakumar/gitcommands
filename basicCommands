@@ -18,6 +18,18 @@ congifure ur username and mail id
 git checkout {branch name} to switch branch
 git checkout -b {branch name} to switch to new branch
 git remote - v to see the remote repo
-git remote remove {origin or destination}
+git remotr rm {origin or destination}
 git remote set-url --add {name} {url}
+git fetch origin
+git branch show all local branch 
+git branch --all show all remote and local branch
+git diff
+git diff {branch name} {comapre branch name}
+git log show with all details
+git log -oneline show only commit id and commit msg
+git show
+git add {file name}
+git status
+git commit -a -m ' commit msg' to add and commit
+
 
